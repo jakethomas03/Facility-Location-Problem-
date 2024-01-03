@@ -23,7 +23,7 @@ This problem is complex and requires lots of different algorithms. For example, 
 
 ## Data Description
 
-
+The miles.dat data file contains the city name, state, coordinates, population, and distance from the cities above it, for 128 cities from 1949 mileage data. 
 
 ## How to Run Program
 
