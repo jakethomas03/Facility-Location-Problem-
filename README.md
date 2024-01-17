@@ -21,13 +21,26 @@ The goal of this project is to find the most efficient facility locations for ci
 
 This problem is complex and requires lots of different algorithms. For example, the function countUnservedCities finds the cities that are "nearby" a given city using the function nearbyCities. It then counts how many of these nearby cities have not been served yet and returns this number to the locateFacilities function.
 
+Additionally, the program includes functions such as getCoordinates, getPopulation, and getDistance, which each return the respective characteristic about whichever city you are searching for within the data.
+
 ## Data Description
 
-The miles.dat data file contains the city name, state, coordinates, population, and distance from the cities above it, for 128 cities from 1949 mileage data. 
+The miles.dat data file contains the city name, state, coordinates, population, and distance in miles from each of the cities above it, for 128 cities from 1949 mileage data. 
+
+Ex. 
+
+Yakima, WA [4660,12051] 49826 
+<br>1513 2410</br>
+
+= 
+
+City Name, State Abbreviation [Latitude, Longitude] Population
+<br>Distance from Yankton SD,  Distance from Youngstown OH</br>
+
 
 ## How to Run Program
 
-There are 2 ways to run the program, the first being to download the Python file and run it, which will create the two KML files on your local computer. Or you may just download the already created visualization300.kml and visualization800.kml files onto your computer and skip the Python step. 
+There are 2 ways to run the program, the first being to download the Python file and run it, which will create the two KML files on your local computer. Or you may just download the already created visualization300.kml and visualization800.kml files in this repository onto your computer and skip the Python step. 
 
 After the KML files have been downloaded, go to Google Earth and click File. Then click import KML files and import both files. You then should be able to view the visualizations created for each distance. Please ensure you only view one of the files at a time for accurate results. 
 
