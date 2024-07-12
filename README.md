@@ -3,15 +3,11 @@
 This repository showcases my Computer Science project that resolves the Facility Location Problem for cities listed in the data file miles.dat. A description of what this problem is and an in-depth explanation of how my Python program solves can be found in the description. An explanation of how to run the program to see the visualization output on Google Earth can be found in the How to Run Program. The Python code that runs the algorithms and creates the KML files is in the project1Phase3.py file, and the KML code that creates the visualizations is in visualization300.kml and visualization800.kml. 
 
 
-1. [Project Title](#Project-title)
-2. [Problem Description](#Problem-Description)
-3. [Data Description](#Data-Description)
-4. [How to Run Program](#How-to-Run-Program)
-5. [Additional Documentation](#Additional-Documentation)
+1. [Problem Description](#Problem-Description)
+2. [Data Description](#Data-Description)
+3. [How to Run Program](#How-to-Run-Program)
+4. [Additional Documentation](#Additional-Documentation)
 
-## Project Title
-
-**Facility Location Problem**
 
 ## Problem Description 
 
@@ -47,5 +43,7 @@ After the KML files have been downloaded, go to Google Earth and click File. The
 ## Additional Documentation
 
 Citations: 
+
+Credit to my professor Sriram Pemmaraju for creating this extremely interesting and engaging project. 
 
 Cantlebary, Liz, and Lawrence Li. “Facility Location Problem.” Facility Location Problem - Cornell University Computational Optimization Open Textbook - Optimization Wiki, 21 Dec. 2020, optimization.cbe.cornell.edu/index.php?title=Facility_location_problem#:~:text=The%20Facility%20Location%20Problem%20(FLP,facility%20costs%2C%20and%20transportation%20distances. 
