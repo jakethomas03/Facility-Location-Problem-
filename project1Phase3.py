@@ -248,7 +248,7 @@ def locateFacilities(cityList, distanceList, r):
 
 def display300(fac300, cityList, distanceList, coordList):
 
-    f = open('visualization300.kml', 'a')
+    f = open('visualization300.kml', 'w')
     
     f.write('<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n')
     f.write('<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n')
@@ -275,7 +275,7 @@ def display300(fac300, cityList, distanceList, coordList):
 
 def display800(fac800, cityList, distanceList, coordList):
 
-    f = open('visualization800.kml', 'a')
+    f = open('visualization800.kml', 'w')
     
     f.write('<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n')
     f.write('<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n')
