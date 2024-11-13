@@ -1,5 +1,7 @@
 # Facility Location Problem
 
+![Python badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 This repository showcases my Computer Science project that resolves the Facility Location Problem for cities listed in the data file miles.dat. A description of what this problem is and an in-depth explanation of how my Python program solves can be found in the description. An explanation of how to run the program to see the visualization output on Google Earth can be found in the How to Run Program. The Python code that runs the algorithms and creates the KML files is in the project1Phase3.py file, and the KML code that creates the visualizations is in visualization300.kml and visualization800.kml. 
 
 
